@@ -3,7 +3,7 @@ This is a project that I plan on having 1.0 released and depolyed for public con
 
 The idea is for Creators and Influencers to use this to interact with their communities in a different way than just through their normal routes of content, I plan on supporting the basic types of media out there albulms, movies, art and books (including comics/graphic novels and manga). At launch I dont plan on having any major monetization effort outside of user donation, though I have ideas for ways for this to be monetized if user and communities response is good enough.  
 
-Inspiration came from [this video]() from Jacksepticeye because in it he reviewed dune the  movie and compared it to the book and it struck me as a potential for fan engagement to create book clubs then my idea expanded to all forms of media.
+Inspiration came from [this video](https://www.youtube.com/watch?v=yh9Evgt6ZBg) from Jacksepticeye because in it he reviewed dune the  movie and compared it to the book and it struck me as a potential for fan engagement to create book clubs then my idea expanded to all forms of media.
 
 ## The packaged releases for deployment
 Coming Soon
@@ -24,7 +24,8 @@ Way Two:
 __ If you are trying to test out before release then it is imperitive to to the function of the apps to have this running on a network local machine __
 
 #### iOS
-Sideloading on apple is not a recomended move at the moment so for iOS users you must wait for the app Store beta which might come around the same time the 1.0 for android. Though if you can't wait [here]() is an article from that describes how to and why you may wat to just wait.
+Sideloading on apple is not a recomended move at the moment so for iOS users you must wait for the app Store beta which might come around the same time the 1.0 for android. Though if you can't wait [here](https://searchmobilecomputing.techtarget.com/opinion/Did-you-know-how-easy-it-is-to-sideload-iOS-apps-to-your-iPhone)
+is an article from that describes how to and why you may wat to just wait.
 
 #### Android
 Android instalation there are two ways:  
