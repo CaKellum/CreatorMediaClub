@@ -50,11 +50,28 @@ the Android is [here](https://github.com/CaKellum/CreatorMediaClubs_Android)  us
 the WebApp is [here](https://github.com/CaKellum/CreatorMediaClubs_Web) using Python/Django  
 
 ## How to Contribute
-Coming soon
+
+If you would like to contribute please fork and open a pullrequest  
+Most of the code Guidelines will be taken care of by the linters,  
+but make sure to:
+* have easily understandable variable names
+* that there are no runtime errors
+* no unhandeled error, unlesss in testing
+* all functions have properly formatted comments
+
+and when you make a pull request please leave a Comment/Note on what the improvement you are making,   
+be descriptive and verbose  
+__I Will deny any PRs with no or subpar notation__
 
 ## If you like this and Want to see more
-From future creators then onate to these organizations:
-- list incoming
+Considering dontating to these organizations that will support the next generation:
+- [Code.org](https://donate.code.org/campaign/support-computer-science-education/c172233)
+- [Black Girls Code](https://www.blackgirlscode.com/donate/)
+- [SMASH](https://www.smash.org/?form=donate)
+- [Girls Who Code homepage](https://girlswhocode.com/) and donte [here](https://www.classy.org/give/77372/#!/donation/checkout)
+- [Scratch Foundation](https://secure.donationpay.org/scratchfoundation/)
+- [First](https://www.firstinspires.org/donate?utm_source=first-inspires&utm_medium=donate-button&utm_campaign=donation)
+- there are many more that are more in need of money than I so please before you give me money really consider giving money to any charity
 
-or if you want to be my benefactor [paypal me](https://paypal.me/cakethecook4353?country.x=US&locale.x=en_US) because money makes it easier to do things which you might like
+or if you want to be my benefactor to see more of specifically my stuff [paypal me](https://paypal.me/cakethecook4353?country.x=US&locale.x=en_US) because money makes it easier to do things which you might like
 
