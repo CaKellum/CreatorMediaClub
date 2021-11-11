@@ -1,0 +1,89 @@
+@startuml "Creator Media Club Project"
+skinparam defaultFontName Ariel
+interface Media {
+
+    + {field} id : String
+    + {field} title : String
+    + {field} yearOfCreation : DateTime
+
+    + {static} {method} isEqual(Self lh, Self rh)
+    + {method} isMediaOfTheMonth(Club club)
+    - {method} generateDescription()
+}
+
+class Book {
+    + {field} isbn : String
+    + {field} pageCount : Int
+    + {field} chapterCount : Int
+    + {field} artist : String?
+    + {field} author : String?
+}
+
+class Movie {
+    + {field} writer : String
+    + {field} director : String
+    + {field} lengthOfMovie : Float
+}
+
+class Art {
+    + {field} yearOfCompletion : DateTime
+    + {field} artist : String
+    + {field} blurb : String
+}
+
+class Song {
+    + {field} artist : String
+    + {field} writer : String
+    + {field} length : Double
+}
+
+class Album {
+    + {field} trackList : Array<Song>
+    + {field} albumArtist : Array<String>
+    + {field} albumLength : Double
+
+    - {static} {method} getArtistsFor(Album album)
+    - {static} {method} getLengthFor(Abum album)
+}
+
+Book --|> Media
+Movie --|> Media
+Art --|> Media
+Song --|> Media
+Album --|> Media
+
+class Club <<T>> {
+    + {field} id : String
+    + {field} name : String
+    + {field} leaderOfClub : String
+    + {field} MediaOfTheMonth : T
+    + {field} pastMOM : Array<T>
+    + {field} upcomingMOM : Array<T>
+    + {field} DiscussionBoardURL : String
+}
+
+class ClubCollection {
+    + {field} bookClubs : Array<Club<Book>>
+    + {field} movieClubs : Array<Club<Movie>>
+    + {field} artClubs : Array<Club<Art>>
+    + {field} musicClubs : Array<Club<Album>>
+}
+
+class Member {
+    + {field} id : String
+    + {field} firstName : String
+    + {field} lastName : String
+    + {field} clubs : ClubCollection
+}
+
+ClubCollection o-- Club
+Club o-- Media
+Member -- ClubCollection
+
+note as N1
+This serves as reference to describe relationship 
+between and what each object looks like the Database 
+will seperate alot of the Medias and rows
+endnote
+
+@enduml
