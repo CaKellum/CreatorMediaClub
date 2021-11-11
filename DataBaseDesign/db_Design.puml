@@ -1,0 +1,81 @@
+@startuml
+title "Database layout"
+
+    object userTable {
+        id
+        fName
+        lName
+    }
+
+    object clubTable {
+        id
+        leader
+        typeOfMedia
+    }
+
+    object mediaOftheMonthTable {
+        clubId
+        janMOMId
+        febMOMId
+        marMOMId
+        aprMOMId
+        mayMOMId
+        junMOMId
+        julMOMId
+        augMOMId
+        septMOMId
+        octMOMId
+        novMOMId
+        decMOMId
+    }
+
+    object bookTable {
+        id
+        {feild} title
+        yearOfCreation
+        isbn
+        author
+        writer
+        pageCount
+        chapterCount
+    }
+
+    object movieTable {
+        id
+        {feild} title
+        yearOfCreation
+        writer
+        director
+        length
+    }
+
+    object artTable {
+        id
+        {feild} title
+        yearOfCreation
+        yearOfCompletion
+        artist
+        blurb
+    }
+
+    object albumTable {
+        id
+        {feild} title
+        yearOfCreation
+    }
+    
+    object songTable {
+        id
+        {feild} title
+        yearOfCreation
+        artist
+        writer
+        albumId
+        length
+    }
+
+    map userClubAssociationTable {
+        userId => clubId
+    }
+
+@enduml
